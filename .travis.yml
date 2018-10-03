@@ -1,0 +1,12 @@
+language: generic
+dist: xenial
+sudo: required
+cache:
+- apt
+addons:
+  apt:
+    packages:
+    - curl
+    - wget
+script:
+- exit 0
