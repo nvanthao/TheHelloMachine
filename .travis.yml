@@ -2,4 +2,4 @@ language: generic
 dist: xenial
 sudo: required
 script:
-- exit 0
+- bash test.sh
