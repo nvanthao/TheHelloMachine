@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out=$(./hello.sh)
+out=$(bash hello.sh)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
